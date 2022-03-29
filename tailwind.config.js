@@ -7,6 +7,7 @@ module.exports = {
     extend: {
       fontFamily: {
         primary: ["SofiaW01-CondensedMedium", "sans-serif"],
+        secondary: ["Roboto", "sans-serif"],
       },
     },
   },
