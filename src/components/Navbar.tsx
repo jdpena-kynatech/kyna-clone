@@ -2,12 +2,16 @@ import React from "react";
 import Image from "next/image";
 import Link from "next/link";
 import { NavLinkProps } from "@/types/props";
+import { useRouter } from "next/router";
 import { nanoid } from "nanoid";
 
 const NavLinks: React.FC<NavLinkProps> = ({ hrefLink, navText }) => {
+  const { pathname } = useRouter();
   return (
     <Link href={hrefLink}>
-      <p className="text-green cursor-pointer border-b-2 border-transparent hover:border-emerald-200 hover:text-emerald-400">
+      <p
+        className={`text-green cursor-pointer border-b-2 border-transparent hover:border-emerald-200 hover:text-emerald-400 
+      ${pathname === hrefLink ? "border-emerald-500 text-emerald-500" : ""}`}>
         {navText}
       </p>
     </Link>
