@@ -2,6 +2,7 @@ import type { NextPage } from "next";
 import Layout from "@/components/Layout";
 import { NextSeo } from "next-seo";
 import { nanoid } from "nanoid";
+import Heading from "@/components/Heading";
 
 const Home: NextPage = () => {
   const serviceList: string[] = [
@@ -21,12 +22,7 @@ const Home: NextPage = () => {
         description="Kynatech Website but bootleg :D"
       />
       <div className="space-y-5 pt-56">
-        <div className="relative">
-          <h2 className="font-primary text-2xl tracking-wider text-primary">
-            SOLUTIONS BY DESIGN &amp; TECHNOLOGY
-          </h2>
-          <div className="absolute top-0 bottom-0 my-auto -ml-24 h-1 w-[6%] bg-emerald-500" />
-        </div>
+        <Heading headingTitle="SOLUTIONS BY DESIGN &amp; TECHNOLOGY" />
         <h1 className="w-[53%] font-serif text-5xl leading-snug text-primary">
           We focus on human experience in a highly digitized world.
         </h1>
