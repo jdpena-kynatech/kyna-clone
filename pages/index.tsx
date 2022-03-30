@@ -17,7 +17,7 @@ const Home: NextPage = () => {
   return (
     <Layout sectionID="home">
       <NextSeo
-        title="Kynatech - Clone"
+        title="Solution by Design &amp; Technology"
         description="Kynatech Website but bootleg :D"
       />
       <div className="space-y-5 pt-56">

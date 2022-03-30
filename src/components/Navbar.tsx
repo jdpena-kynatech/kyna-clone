@@ -21,19 +21,19 @@ const Navbar = () => {
       navText: "Home",
     },
     {
-      hrefLink: "/",
+      hrefLink: "/services",
       navText: "Services",
     },
     {
-      hrefLink: "/",
+      hrefLink: "/work",
       navText: "Work",
     },
     {
-      hrefLink: "/",
+      hrefLink: "/about",
       navText: "About",
     },
     {
-      hrefLink: "/",
+      hrefLink: "/contact",
       navText: "Contact",
     },
   ];
