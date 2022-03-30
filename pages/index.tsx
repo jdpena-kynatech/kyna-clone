@@ -3,6 +3,7 @@ import Layout from "@/components/Layout";
 import { NextSeo } from "next-seo";
 import { nanoid } from "nanoid";
 import Heading from "@/components/Heading";
+import WorksSection from "@/sections/WorksSection";
 
 const Home: NextPage = () => {
   const serviceList: string[] = [
@@ -21,7 +22,7 @@ const Home: NextPage = () => {
         title="Solution by Design &amp; Technology"
         description="Kynatech Website but bootleg :D"
       />
-      <div className="space-y-5 pt-56">
+      <div className="space-y-5 py-56">
         <Heading headingTitle="SOLUTIONS BY DESIGN &amp; TECHNOLOGY" />
         <h1 className="w-[53%] font-serif text-5xl leading-snug text-primary">
           We focus on human experience in a highly digitized world.
@@ -44,6 +45,7 @@ const Home: NextPage = () => {
           </button>
         </div>
       </div>
+      <WorksSection />
     </Layout>
   );
 };

@@ -3,7 +3,7 @@ import { FaFacebookF, FaTwitter, FaInstagram } from "react-icons/fa";
 
 const Footer = () => {
   return (
-    <footer className="container fixed bottom-4 left-0 right-0 mx-auto flex h-[20.5rem] flex-col items-center justify-around px-[4.44rem] font-secondary">
+    <footer className="container mx-auto flex h-[20.5rem] flex-col items-center justify-around px-[4.44rem]  font-secondary">
       <div className="grid w-full grid-cols-12 justify-between">
         <div className="col-span-3 col-start-1 space-y-5">
           <p className="font-light">Email</p>
@@ -20,9 +20,9 @@ const Footer = () => {
         <div className="col-span-2 col-start-11 space-y-5 justify-self-end">
           <p className="font-light">Follow</p>
           <div className="flex gap-x-8 fill-current text-neutral-800">
-            <FaFacebookF size={20} />
-            <FaTwitter size={20} />
-            <FaInstagram size={20} />
+            <FaFacebookF className="cursor-pointer" size={20} />
+            <FaTwitter className="cursor-pointer" size={20} />
+            <FaInstagram className="cursor-pointer" size={20} />
           </div>
         </div>
       </div>

@@ -9,5 +9,10 @@ interface LayoutProps {
   children: React.ReactNode;
   sectionID: string;
 }
+interface ProjectCardProps {
+  imageURL: string;
+  title: string;
+  intro: string;
+}
 
-export { NavLinkProps, LayoutProps };
+export { NavLinkProps, LayoutProps, ProjectCardProps };
