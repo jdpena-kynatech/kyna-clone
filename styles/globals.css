@@ -3,3 +3,8 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+#sidebar__socials {
+  writing-mode: vertical-lr;
+  transform: rotate(180deg);
+}

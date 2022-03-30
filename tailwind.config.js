@@ -9,6 +9,9 @@ module.exports = {
         primary: ["SofiaW01-CondensedMedium", "sans-serif"],
         secondary: ["Roboto", "sans-serif"],
       },
+      colors: {
+        primary: "#0b4545",
+      },
     },
   },
   plugins: [],

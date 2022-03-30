@@ -38,7 +38,7 @@ const Navbar = () => {
     },
   ];
   return (
-    <nav className="bg-green container mx-auto flex items-center justify-between px-[4.44rem] pt-14 font-primary text-lg uppercase">
+    <nav className="bg-green container mx-auto flex items-center justify-between  pt-14 font-primary text-lg uppercase">
       <Image src="/kyna-logo.png" width={200} height={30} />
       <div className="flex gap-x-12 pr-20 tracking-widest">
         {links.map((items) => {
